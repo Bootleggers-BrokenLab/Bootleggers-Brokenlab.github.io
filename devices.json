@@ -8,7 +8,7 @@ permalink: /api/devices
 	"maintainer": "{{device.maintainer}}",
 	"xdathread": "{{device.xdathread}}",
 	"filename": "{{device.filename}}",
-	"buildate": "{{device.filename | slice: buildDateStartWithTime,buildDateFinal | remove: ".zip"}}"
+	"buildate": "{{device.filename | slice: buildDateStartWithTime,buildDateFinal | remove: ".zip"}}",
 	"buildsize": "{{device.buildsize}}",
 	"id": "{{ forloop.index }}",
 	"download": {% if device.directmirror %}"{{ device.directmirror }}/{{ device.filename }}",{% else %}"https://downloads.sourceforge.net/project/bootleggersrom/builds/{{ device.codename }}/{{ device.filename }}",{% endif %}
