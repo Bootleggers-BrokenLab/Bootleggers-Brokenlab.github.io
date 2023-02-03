@@ -1,6 +1,6 @@
 ---
-
-codename: Chime
+codename: chime
+fullname: Poco M3/Blerg
 maintainer: ElDainosor
 newformat: true
 buildsize: 1232944636
