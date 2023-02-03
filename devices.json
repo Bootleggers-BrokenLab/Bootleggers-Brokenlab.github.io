@@ -15,6 +15,6 @@ permalink: /api/devices
 	"downloadfolder": "https://sourceforge.net/projects/bootleggersrom/files/builds/",
 	"mirrorlink": "{{device.mirrorlink}}",
 	"changelog": "https://raw.githubusercontent.com/Bootleggers-brokenlab/Bootleggers-brokenlab.github.io/master/_changelog/{{ device.codename }}"
-{% unless forloop.last %},{% endunless %}
+}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 }
