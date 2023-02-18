@@ -18,6 +18,7 @@ title: Downloads
             <i class="material-icons">phone_android</i>
           {{ device.codename }} | {{ device.fullname }}</div>
           <div class="collapsible-body collapsible-noborder shishu-midlight-bg">
+            <strong>Vanilla</strong><br>
             <span>Maintainer:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.maintainer }}</div><br>
             <span>Latest build:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.filename }}</div><br>
             <span>Build size:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.buildsize | divided_by: 1048576 }}MB</div><br><br>
